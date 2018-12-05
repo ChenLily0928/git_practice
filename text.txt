@@ -17,4 +17,5 @@ git instruction
    加入註解  -m "//註解內容//"
 
 7. 註冊使用者名稱：git config --global user.name "Lily"
- 
+
+8. 註冊信箱：git config --global user.email "lily820930@gmail.com"
