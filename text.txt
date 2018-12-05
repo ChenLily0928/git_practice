@@ -52,3 +52,5 @@ Git Instruction
 19. git log 查看歷史command 紀錄
 
 20. git reset --hard '歷史log前幾碼ID'：e.g. git reset --hard 'b41bd835'
+
+21. git reflog：查看操作，若發現版本料轉後，版本非所要想在跳回原來的版本
