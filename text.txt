@@ -1,43 +1,43 @@
 Hello Git
 
-git instruction
+Git Instruction
 
-1. ¶}±Ò cmd ¨Ã¤Á´«¨ì¤u§@¸ê®Æ§¨ ex d: ¡÷ D:\Coding Project
+1. é–‹å•Ÿ cmd ä¸¦åˆ‡æ›åˆ°å·¥ä½œè³‡æ–™å¤¾ ex d: â†’ D:\Coding Project
 
-2. ¿é¤J git init ªí¥Ü¸Ó¸ê®Æ§¨³QgitºÊ±±
+2. è¼¸å…¥ git init è¡¨ç¤ºè©²è³‡æ–™å¤¾è¢«gitç›£æ§
 
-3. ¿é¤J git status ¬d¬İ¥Ø«e¦¹¥Ø¿ı¤Uªº©Ò¦³ÀÉ®×ª¬ºA
+3. è¼¸å…¥ git status æŸ¥çœ‹ç›®å‰æ­¤ç›®éŒ„ä¸‹çš„æ‰€æœ‰æª”æ¡ˆç‹€æ…‹
 
-4. ¿é¤J git add .©Î git add * ±N©Ò¦³¸ê®Æ³£¦s¤J¼È¦s
+4. è¼¸å…¥ git add .æˆ– git add * å°‡æ‰€æœ‰è³‡æ–™éƒ½å­˜å…¥æš«å­˜
 
-5. ¦A¦¸¿é¤J git status ¬d¬İª¬ºA
+5. å†æ¬¡è¼¸å…¥ git status æŸ¥çœ‹ç‹€æ…‹
 
-6. ±NÀÉ®×¯u¥¿¦s¤J¨ì git ¤W¡Ggit commit -m "first commit"
+6. å°‡æª”æ¡ˆçœŸæ­£å­˜å…¥åˆ° git ä¸Šï¼šgit commit -m "first commit"
 
-   ¥[¤Jµù¸Ñ  -m "//µù¸Ñ¤º®e//"
+   åŠ å…¥è¨»è§£  -m "//è¨»è§£å…§å®¹//"
 
-7. µù¥U¨Ï¥ÎªÌ¦WºÙ¡Ggit config --global user.name "Lily"
+7. è¨»å†Šä½¿ç”¨è€…åç¨±ï¼šgit config --global user.name "Lily"
 
-8. µù¥U«H½c¡Ggit config --global user.email "¦Û¤vªº«H½c"
+8. è¨»å†Šä¿¡ç®±ï¼šgit config --global user.email "è‡ªå·±çš„ä¿¡ç®±"
 
-9. ³]¸mgit ¤Wªº»·ºİ¥Ø¿ı¦ì¸m¡Ggit remote add origin https://github.com/ChenLily0928/git_practice.git 
+9. è¨­ç½®git ä¸Šçš„é ç«¯ç›®éŒ„ä½ç½®ï¼šgit remote add origin https://github.com/ChenLily0928/git_practice.git 
 
-10. ±N¸ê®Æ¶Ç¨ì»·ºİ¥Ø¿ı¡Ggit push -u origin master
+10. å°‡è³‡æ–™å‚³åˆ°é ç«¯ç›®éŒ„ï¼šgit push -u origin master
 
-11. §Ö³t±NÀÉ®×commit¡Ggit commit -am "git instruction-1"
+11. å¿«é€Ÿå°‡æª”æ¡ˆcommitï¼šgit commit -am "git instruction-1"
 
-12. ·íÀÉ®×³Q¥L¤H°µ§ó°Ê®É¡A¥»¦aºİ­n±q»·ºİ¨ú±o³Ì·sÀÉ®×¡A¨Ã¦P®É«O¦³¥»¦aºİ¤w­×§ïªº¸ê®Æ³¡¤À(fetch)¡G
+12. ç•¶æª”æ¡ˆè¢«ä»–äººåšæ›´å‹•æ™‚ï¼Œæœ¬åœ°ç«¯è¦å¾é ç«¯å–å¾—æœ€æ–°æª”æ¡ˆï¼Œä¸¦åŒæ™‚ä¿æœ‰æœ¬åœ°ç«¯å·²ä¿®æ”¹çš„è³‡æ–™éƒ¨åˆ†(fetch)ï¼š
     git fetch origin master:temp
 
-13. ±N¥L¤H§ó°ÊªºÀÉ®×¥H¤Î¦Û¤v­×¥¿ªºÀÉ®×¬Q¦X¨Ö(merge)¡G
+13. å°‡ä»–äººæ›´å‹•çš„æª”æ¡ˆä»¥åŠè‡ªå·±ä¿®æ­£çš„æª”æ¡ˆæ˜¨åˆä½µ(merge)ï¼š
     git merge
 
-14. git pull¡Gµ²¦Xfetch ©M merge
+14. git pullï¼šçµåˆfetch å’Œ merge
 
-15. git branch ²£¥Í¤@­Ó·sªº¤À¤ä
-    git branch new ¦A«Ø¤@­Ó¤À¤ä¨Ã¨ú¦W¬°"new"
-    git checkout new¡G¤Á´«¤À¤ä¨ì"new"³o­Ó¤À¤ä¡A¦b¤À¤ä°µ­×§ï«ácommit¥i¥HÀx¦s
+15. git branch ç”¢ç”Ÿä¸€å€‹æ–°çš„åˆ†æ”¯
+    git branch new å†å»ºä¸€å€‹åˆ†æ”¯ä¸¦å–åç‚º"new"
+    git checkout newï¼šåˆ‡æ›åˆ†æ”¯åˆ°"new"é€™å€‹åˆ†æ”¯ï¼Œåœ¨åˆ†æ”¯åšä¿®æ”¹å¾Œcommitå¯ä»¥å„²å­˜
 
-16. git merge new¡G±N¥D½u©M¤À¤äµ²¦X
-    git branch -d new¡G±N¤w¸g merge «áªº branch §R°£
-    (-d ¡÷§R°£   new¡Gbranch ¦WºÙ)
+16. git merge newï¼šå°‡ä¸»ç·šå’Œåˆ†æ”¯çµåˆ
+    git branch -d newï¼šå°‡å·²ç¶“ merge å¾Œçš„ branch åˆªé™¤
+    (-d â†’åˆªé™¤   newï¼šbranch åç¨±)
