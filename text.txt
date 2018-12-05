@@ -46,3 +46,9 @@ Git Instruction
     (-d →刪除   new：branch 名稱)
 
 17. git diff temp：若遠端和本地端資料產生衝突，可以將master 和temp做比較選擇是否留存或刪除
+
+18. git clone (檔案位置) 取名：
+
+19. git log 查看歷史command 紀錄
+
+20. git reset --hard '歷史log前幾碼ID'：e.g. git reset --hard 'b41bd835'
