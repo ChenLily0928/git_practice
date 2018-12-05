@@ -1,4 +1,4 @@
-Hello Git
+﻿Hello Git
 
 Git Instruction
 
@@ -41,3 +41,5 @@ Git Instruction
 16. git merge new：將主線和分支結合
     git branch -d new：將已經 merge 後的 branch 刪除
     (-d →刪除   new：branch 名稱)
+
+17. git diff temp：若遠端和本地端資料產生衝突，可以將master 和temp做比較選擇是否留存或刪除
