@@ -1,6 +1,6 @@
 Hello Git
 
-Git Instruction
+git instruction
 
 1. 開啟 cmd 並切換到工作資料夾 ex d: → D:\Coding Project
 
@@ -31,3 +31,9 @@ Git Instruction
 
 13. 將他人更動的檔案以及自己修正的檔案昨合併(merge)：
     git merge
+
+14. git pull：結合fetch 和 merge
+
+15. git branch 產生一個新的分支
+    git branch new 再建一個分支並取名為"new"
+    git checkout new：切換分支到"new"這個分支
