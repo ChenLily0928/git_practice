@@ -1,6 +1,6 @@
 Hello Git
 
-git instruction
+Git Instruction
 
 1. 開啟 cmd 並切換到工作資料夾 ex d: →D:\Coding Project
 
