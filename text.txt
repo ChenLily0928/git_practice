@@ -1,2 +1,20 @@
 Hello Git
-12345
+
+git instruction
+
+1. 開啟 cmd 並切換到工作資料夾 ex d: →D:\Coding Project
+
+2. 輸入 git init 表示該資料夾被git監控
+
+3. 輸入 git status 查看目前此目錄下的所有檔案狀態
+
+4. 輸入 git add .或 git add * 將所有資料都存入暫存
+
+5. 再次輸入 git status 查看狀態
+
+6. 將檔案真正存入到 git 上：git commit -m "first commit"
+
+   加入註解  -m "//註解內容//"
+
+7. 註冊使用者名稱：git config --global user.name "Lily"
+ 
