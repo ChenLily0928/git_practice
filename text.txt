@@ -38,7 +38,8 @@ Git Instruction
 15. git branch 產生一個新的分支
     git branch new 再建一個分支並取名為"new"
     git checkout new：切換分支到"new"這個分支，在分支做修改後commit可以儲存
-    git checkout -b new2：同時建立分支並切換到new2這個分支
+    git checkout -b new2：同時建立分支並切換到 new2 這個分支(-b 分支)
+
 
 16. git merge new：將主線和分支結合
     git branch -d new：將已經 merge 後的 branch 刪除
