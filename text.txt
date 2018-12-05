@@ -28,6 +28,7 @@ Git Instruction
 
 12. 當檔案被他人做更動時，本地端要從遠端取得最新檔案，並同時保有本地端已修改的資料部分(fetch)：
     git fetch origin master:temp
+    (強制建立一個temp分支儲存遠端變更)
 
 13. 將他人更動的檔案以及自己修正的檔案昨合併(merge)：
     git merge
